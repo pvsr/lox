@@ -1,0 +1,6 @@
+package build
+import mill._, javalib._
+
+object lox extends JavaModule {
+	def mainClass = Some("dev.pvsr.lox.Lox")
+}
